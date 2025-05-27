@@ -1,7 +1,7 @@
 {
 	"name": "blog-customizer",
 	"version": "1.0.0",
-	"main": "index.js",
+	"main": "index.tsx",
 	"license": "MIT",
 	"devDependencies": {
 		"@pmmmwh/react-refresh-webpack-plugin": "^0.5.10",
@@ -73,6 +73,7 @@
 		"build-storybook": "storybook build",
 		"predeploy": "npm run build",
 		"deploy": "gh-pages -d dist"
+		
 	},
 	"eslintConfig": {
 		"extends": [
